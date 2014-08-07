@@ -1,1 +1,2 @@
-adicion de un archivo al git
+Se cabmiaron las lineas de este archivo
+aqui se cambiaron las cosas
