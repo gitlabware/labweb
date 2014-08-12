@@ -37,6 +37,9 @@ gem 'mysql2', '~> 0.3.16'
 #for defailt haml templates
 gem 'haml-rails', '~> 0.5.3'
 
+#for notifications
+gem 'gritter', '~> 1.1.0'
+
 #for haml
 gem 'haml', '~> 4.0.5'
 # Use ActiveModel has_secure_password

@@ -43,6 +43,7 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.2.1)
+    gritter (1.1.0)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -130,6 +131,7 @@ PLATFORMS
 DEPENDENCIES
   byebug (~> 3.2.0)
   coffee-rails (~> 4.0.0)
+  gritter (~> 1.1.0)
   haml (~> 4.0.5)
   haml-rails (~> 0.5.3)
   jbuilder (~> 2.0)
