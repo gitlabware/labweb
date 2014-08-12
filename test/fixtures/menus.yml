@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pagina_id: 1
+  titulo: MyString
+  estado: false
+  created_at: 2014-08-12 00:29:50
+  modiied_at: 2014-08-12 00:29:50
+
+two:
+  pagina_id: 1
+  titulo: MyString
+  estado: false
+  created_at: 2014-08-12 00:29:50
+  modiied_at: 2014-08-12 00:29:50

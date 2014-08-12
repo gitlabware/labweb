@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Pagina:
+  = @menu.pagina_id
+%p
+  %b Titulo:
+  = @menu.titulo
+%p
+  %b Estado:
+  = @menu.estado
+%p
+  %b Created at:
+  = @menu.created_at
+%p
+  %b Modiied at:
+  = @menu.modiied_at
+
+= link_to 'Edit', edit_menu_path(@menu)
+\|
+= link_to 'Back', menus_path

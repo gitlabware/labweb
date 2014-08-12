@@ -1,0 +1,27 @@
+%h1 Listing menus
+
+%table
+  %tr
+    %th Pagina
+    %th Titulo
+    %th Estado
+    %th Created at
+    %th Modiied at
+    %th
+    %th
+    %th
+
+  - @menus.each do |menu|
+    %tr
+      %td= menu.pagina_id
+      %td= menu.titulo
+      %td= menu.estado
+      %td= menu.created_at
+      %td= menu.modiied_at
+      %td= link_to 'Show', menu
+      %td= link_to 'Edit', edit_menu_path(menu)
+      %td= link_to 'Destroy', menu, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Menu', new_menu_path

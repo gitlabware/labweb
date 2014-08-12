@@ -1,0 +1,25 @@
+%h1 Listing paginas
+
+%table
+  %tr
+    %th Titulo
+    %th Contenido
+    %th Created at
+    %th Modified at
+    %th
+    %th
+    %th
+
+  - @paginas.each do |pagina|
+    %tr
+      %td= pagina.titulo
+      %td= pagina.contenido
+      %td= pagina.created_at
+      %td= pagina.modified_at
+      %td= link_to 'Show', pagina
+      %td= link_to 'Edit', edit_pagina_path(pagina)
+      %td= link_to 'Destroy', pagina, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Pagina', new_pagina_path
