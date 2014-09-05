@@ -6,7 +6,6 @@ class CreatePaginas < ActiveRecord::Migration
       t.boolean :estado
       t.timestamp :created_at
       t.timestamp :modified_at
-
       t.timestamps
     end
   end
